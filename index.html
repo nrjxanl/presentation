@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 
-<html lang="kr">
+<html lang="ko">
 
-<head>
+    <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>웹사이트의 구조</title>
-        <link rel="stylesheet" href="style.css">
-</head>
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Presentation</title>
+        <link rel="stylesheet"
+            href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
 
-<body>
+    <body>
         <div id="main">
-                <p>웹사이트의 구조</p>
+            <p>Paragraph</p>
         </div>
-</body>
+
+        <div id="page1">
+            <p>웹사이트란?</p>
+            <p>URL<span>(Uniform Resource Locator)</span> 등을 통하여 보이는<br>웹 페이지의 묶음</p>
+        </div>
+
+        <div id="page2">
+            <p>웹사이트를 구성하는 언어</p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/180px-HTML5_logo_and_wordmark.svg.png">HTML<span>(HyperText Mark-up Language)</span></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png">CSS<span>(Cascading Style Sheet)</span></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/96px-Unofficial_JavaScript_logo_2.svg.png">JavaScript<span>(HyperText Mark-up Language)</span></p>
+        </div>
+
+        <div id="page3">
+            <p>HTML이란?</p>
+            <p><span><b>H</b>YPER<b>T</b>EXT<br><small>사용자에게 비순차적인 검색을 할 수 있도록 제공되는 텍스트</small></span><span><b>M</b>ARK-UP<br><small>문서 처리의 원활한 지원을 위해 문서에 추가되는 약속된 정보</small></span><span><b>L</b>ANGUAGE<br><small>언어</small></span></p>
+            <p>= 웹사이트에 다양한 정보와 이를 찾기 위한 하이퍼텍스트를<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'마크업'하여 사용자가 볼 수 있도록 하는 언어</p>
+        </div>
+
+        <div id="page8">
+            <p>HTML의 기본 문법</p>
+            <p><span>&lt;</span><span>p&nbsp;</span><span>class</span><span>="</span><span>value</span><span>"&gt;</span><span>content</span><span>&lt;</span><span>/p</span><span>&gt;</span></p>
+            <p><span>&lt;</span><span>p&nbsp;<br>시작 태그</span><span>class<br>속성 이름</span><span>="</span><span>value<br>속성값</span><span>"&gt;</span><span>content<br>내용</span><span>&lt;</span><span>/p<br>종료 태그</span><span>&gt;</span></p>
+            </div>
+
+        <button id="prev" onclick="prev()">◀</button>
+        <button id="next" onclick="next()">▶</button>
+    </body>
+
+    <script src="script.js"></script>
 
 </html>

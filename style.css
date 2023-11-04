@@ -1,1 +1,42 @@
-#main > p {font-size: 40px;}
+@font-face {font-family: "TheJamsil"; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil2Light.woff2") format("woff2"); font-style: normal;}
+@font-face {font-family: "TheJamsil"; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil6ExtraBold.woff2") format("woff2"); font-style: bold;}
+
+* {overflow: hidden; margin: 0; padding: 0; font-family: "TheJamsil"; line-height: 1.6; -ms-overflow-style: none; word-break: keep-all;}
+
+::-webkit-scrollbar {display: none;}
+
+#prev {width: 50px; height: 50px; font-size: 20px; color: blue; background: white; border: 2px solid blue; border-radius: 100%; position: fixed; bottom: 20px; right: 80px;}
+#next {width: 50px; height: 50px; font-size: 20px; color: blue; background: white; border: 2px solid blue; border-radius: 100%; position: fixed; bottom: 20px; right: 20px;}
+
+#main {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px;}
+#main > p {font-size: 80px;}
+
+#page1 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page1 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page1 > p:nth-of-type(2) {font-size: 40px;}
+#page1 > p:nth-of-type(2) > span {font-size: 28px; font-style: italic; padding-left: 5px;}
+
+#page2 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page2 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page2 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+#page2 > p:nth-of-type(n+2) > img {height: 80px; border-radius: 10px;}
+#page2 > p:nth-of-type(n+2) > span {font-size: 28px; font-style: italic; padding-left: 5px;}
+
+#page3 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page3 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page3 > p:nth-of-type(2) {font-size: 60px;}
+#page3 > p:nth-of-type(2) > span {height: 60px; line-height: 1; display: block; margin: 20px 0; overflow: hidden;}
+#page3 > p:nth-of-type(2) > span > b {color: blue; line-height: 1;}
+#page3 > p:nth-of-type(2) > span > small {font-size: 40px;}
+#page3 > p:nth-of-type(3) {font-size: 40px; opacity: 0;}
+
+#page8 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page8 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page8 > p:nth-of-type(n+2) {font-size: 40px; width: 80vw; display: flex;}
+#page8 > p:nth-of-type(n+2) > span:nth-of-type(2) {color: red;}
+#page8 > p:nth-of-type(n+2) > span:nth-of-type(3) {color: orange;}
+#page8 > p:nth-of-type(n+2) > span:nth-of-type(5) {color: green;}
+#page8 > p:nth-of-type(n+2) > span:nth-of-type(7) {color: navy;}
+#page8 > p:nth-of-type(n+2) > span:nth-of-type(9) {color: purple;}
+#page8 > p:nth-of-type(3) {height: 40px; line-height: 1.2; margin-top: -64px; opacity: 0;}
+#page8 > p:nth-of-type(3) > span {height: 40px; display: block; line-height: 1.2; padding-right: 20px; text-align: center;}
