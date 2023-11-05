@@ -31,7 +31,7 @@ function onclickButton() {
         if (num == 2) {
             $("#page2 > p:nth-of-type(n+2) > img").each(function() {
                 $(this).css("margin", "0 " + (150 - (this.width)) / 2 + "px")
-            })    
+            })
         }
 
         if (num == 3) {
