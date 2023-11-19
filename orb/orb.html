@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orb</title>
+</head>
+<body style="display: flex; align-items: center; justify-content: center; width: 100vw; height: 100vh; background: black;">
+    <div>
+        <p style="position: fixed; top: 20px; left: 50px;">광도(L☉)</p>
+        <input id="luminosity" type="range" min="0" max="10000000" value="1" oninput="change()" style="width: 200px; position: fixed; top: 50px; left: 50px;">
+        <p id="rangeValue1" style="position: fixed; top: 80px; left: 50px;"></p>
+    </div>
+    <div>
+        <p style="position: fixed; top: 130px; left: 50px;">표면 온도(K)</p>
+        <input id="temperature" type="range" min="2000" max="60000" value="6000" oninput="change()" style="width: 200px; position: fixed; top: 150px; left: 50px;">
+        <p id="rangeValue2" style="position: fixed; top: 180px; left: 50px;"></p>
+    </div>
+    <div id="orb" style="width: 0.32908px; height: 0.32908px; background: red; border-radius: 50%;"></div>
+    <div style="position: fixed; bottom: 50px; left: 50px;">
+        <p id="lum"></p>
+        <p id="temp"></p>
+        <p id="energy"></p>
+        <p id="radius"></p>    
+    </div>
+
+    <script src="script.js"></script>
+
+    <style>
+        * {color: white; border: 0; margin: 0; padding: 0;}
+    </style>
+</body>
+</html>
