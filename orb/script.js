@@ -4,7 +4,7 @@ function change() {
     L = document.getElementById("rangeValue1").innerText
     T = document.getElementById("rangeValue2").innerText
     E = 5.67 * (1 / 100000000) * (T ** 4)
-    R = Math.sqrt(L * 3.846 * (10 ** 26) / (4 * Math.PI * (5.67 * (1 / 100000000)) * (T ** 4)))
+    R = Math.sqrt(L * 3.828 * (10 ** 26) / (4 * Math.PI * (5.67 * (1 / 100000000)) * (T ** 4)))
 
     document.getElementById("orb").style.width = R * 0.000000001 + "px"
     document.getElementById("orb").style.height = R * 0.000000001 + "px"
