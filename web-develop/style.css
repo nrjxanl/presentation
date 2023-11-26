@@ -9,7 +9,8 @@
 #next {width: 50px; height: 50px; font-size: 20px; color: blue; background: white; border: 2px solid blue; border-radius: 100%; position: fixed; bottom: 20px; right: 20px;}
 
 #main {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px;}
-#main > p {font-size: 80px;}
+#main > p {color: blue; font-size: 100px; display: flex; flex-direction: column; line-height: 1.4;}
+#main > p > span {color: black; font-size: 40px;}
 
 #page1 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
 #page1 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
@@ -40,3 +41,75 @@
 #page8 > p:nth-of-type(n+2) > span:nth-of-type(9) {color: purple;}
 #page8 > p:nth-of-type(3) {height: 40px; line-height: 1.2; margin-top: -64px; opacity: 0;}
 #page8 > p:nth-of-type(3) > span {height: 40px; display: block; line-height: 1.2; padding-right: 20px; text-align: center;}
+
+#ex {width: 40vw; height: calc(100vh - 100px); position: fixed; top: 100px; right: 0; display: none; justify-content: center; align-items: center;}
+
+#page15 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page15 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page15 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page18 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page18 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page18 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page20 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page20 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page20 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page22 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page22 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page22 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page24 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page24 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page24 > p:nth-of-type(2) {font-size: 60px;}
+#page24 > p:nth-of-type(2) > span {height: 60px; line-height: 1; display: block; margin: 20px 0; overflow: hidden;}
+#page24 > p:nth-of-type(2) > span > b {color: blue; line-height: 1;}
+#page24 > p:nth-of-type(2) > span > small {font-size: 40px;}
+#page24 > p:nth-of-type(3) {font-size: 40px; opacity: 0;}
+#page24 > p:nth-last-of-type(1) {font-size: 16px; position: fixed; top: 30vh; right: 10vw;}
+#page24 > p:nth-last-of-type(1) > span {opacity: .5;}
+
+#page28 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page28 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page28 > p:nth-of-type(n+2) {font-size: 40px; width: 80vw; display: flex;}
+#page28 > p:nth-of-type(n+2) > span:nth-of-type(1) {color: red;}
+#page28 > p:nth-of-type(n+2) > span:nth-of-type(3) {color: orange;}
+#page28 > p:nth-of-type(n+2) > span:nth-of-type(5) {color: green;}
+#page28 > p:nth-of-type(n+2) > span:nth-of-type(7) {color: navy;}
+#page28 > p:nth-of-type(n+2) > span:nth-of-type(9) {color: purple;}
+#page28 > p:nth-of-type(3) {height: 40px; line-height: 1.2; margin-top: -64px; opacity: 0;}
+#page28 > p:nth-of-type(3) > span {height: 40px; display: block; line-height: 1.2; padding-right: 20px; text-align: center;}
+
+#page36 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page36 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page36 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page42 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page42 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page42 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page47 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page47 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page47 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page52 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page52 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page52 > p:nth-of-type(n+2) {font-size: 40px; display: flex; align-items: center; padding-bottom: 20px;}
+
+#page57 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page57 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page57 > p:nth-of-type(2) {font-size: 60px;}
+#page57 > p:nth-of-type(2) > span {height: 60px; line-height: 1; display: block; margin: 20px 0; overflow: hidden;}
+#page57 > p:nth-of-type(2) > span > b {color: blue; line-height: 1;}
+#page57 > p:nth-of-type(2) > span > small {font-size: 40px;}
+#page57 > p:nth-of-type(3) {font-size: 40px; opacity: 0;}
+
+#page60 {width: calc(100vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
+#page60 > p {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
+#page60 > li {font-size: 40px; font-weight: bold; padding-bottom: 20px;}
+
+#page61 {width: 100vw; height: 100vh; padding: 0; display: none; justify-content: center; align-items: center;}
+#page61 > p:nth-of-type(1) {font-size: 160px; color: #f35626; background-image: -webkit-linear-gradient(90deg, #f35626, #feab3a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 5s infinite linear;}
+@-webkit-keyframes hue {from {-webkit-filter: hue-rotate(0deg);} to {-webkit-filter: hue-rotate(-360deg);}}
+#page61 > p:nth-of-type(2) {position: fixed; bottom: 20px; left: 20px; opacity: .7;}
