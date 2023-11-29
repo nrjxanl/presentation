@@ -42,7 +42,7 @@
 #page8 > p:nth-of-type(3) {height: 40px; line-height: 1.2; margin-top: -64px; opacity: 0;}
 #page8 > p:nth-of-type(3) > span {height: 40px; display: block; line-height: 1.2; padding-right: 20px; text-align: center;}
 
-#ex {width: 40vw; height: calc(100vh - 100px); position: fixed; top: 100px; right: 0; display: none; justify-content: center; align-items: center;}
+#ex {width: 40vw; height: calc(100vh - 100px); position: fixed; top: 100px; right: 0; display: none; justify-content: center; align-items: center; font-size: 30px;}
 
 #page15 {width: calc(60vw - 100px); height: calc(100vh - 100px); padding: 100px 0 0 100px; display: none;}
 #page15 > p:nth-of-type(1) {color: blue; font-size: 80px; font-weight: bold; padding-bottom: 20px;}
